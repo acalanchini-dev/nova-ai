@@ -1,0 +1,8 @@
+1. Esegui prisma dev per avviare un server Postgres locale di Prisma.
+2. Definisci i modelli nel file schema.prisma.
+3. Esegui prisma migrate dev per migrare il tuo database Postgres locale di Prisma.   
+4. Suggerimento: Esplora come puoi estendere l'ORM con connection pooling scalabile, caching globale e un database Postgres serverless gestito. Leggi: https://pris.ly/cli/beyond-orm
+
+npx prisma migrate dev
+npx prisma studio
+npx prisma migrate reset

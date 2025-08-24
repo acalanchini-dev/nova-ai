@@ -1,0 +1,15 @@
+//NOTE - Usage
+
+Le impostazioni predefinite includono ancoraggi 
+per i seguenti tag:
+
+ANCHOR - Utilizzato per indicare una sezione nel tuo file
+TODO - Un elemento in attesa di completamento
+FIXME - Un elemento che richiede una correzione di bug
+STUB - Utilizzato per frammenti predefiniti generati
+NOTE - Una nota importante per una specifica sezione di codice
+REVIEW - Un elemento che richiede ulteriore revisione
+SECTION - Utilizzato per definire una regione 
+(Vedi 'Ancoraggi gerarchici')
+LINK - Utilizzato per collegarsi a un file che può essere 
+aperto all'interno dell'editor (Vedi 'Ancoraggi di collegamento')

@@ -1,0 +1,22 @@
+//NOTE GIT HUB COMMAND
+1- git add .
+2- git commit -m "tuo commit"
+3- git push
+
+creare una versione alternativa
+dell'applicazione tramite nuovo brach
+
+# 1. Assicurati di essere sul branch principale e di aver salvato tutto
+git status
+git add .
+git commit -m "Salvataggio prima di creare branch alternativo"
+
+# 2. Crea un nuovo branch per la versione alternativa
+git checkout -b nome-versione
+
+# 3. Pusha il nuovo branch su GitHub
+git push -u origin nome-versione
+
+
+Puoi facilmente switchare tra le versioni 
+con git checkout main e git checkout nome-versione
